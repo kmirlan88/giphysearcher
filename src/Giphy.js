@@ -22,7 +22,6 @@ class Giphy extends Component {
 				movies.forEach(movie => {
 					const movieRow = (
 						<div key={movie.id} style={{display: "inline-block", paddingTop: "40px", paddingLeft: "20px"}}>
-
 							<img alt="poster" src={movie.images.downsized_large.url} style={{width: "500px", height: "300px"}}></img>
                             <p style={{backgroundColor: "red", color: "yellow", fontSize: "30px", fontWeight: "bold"}}>{movie.title}</p>
 						</div>
