@@ -36,5 +36,8 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "resolutions": {
+    "underscore": "1.13.7"
   }
 }
